@@ -9,7 +9,7 @@ This simple bare bones OS is based off the OS developed from the [OSDev Wiki Bar
 
 1. This project is designed to be run on Ubuntu or Debian due to the packages you need. Despite this, OS Dev Wiki provides alternitve instructions for native Windows and OS X users to install the packages. We also note that the 3 people who build this at the time of writing used the Windows Linux Subsystem rather then directly using Ubuntu.
 2. Install the reqired packages in `requiredPackages.txt`  
-3. Follow [the OS Dev Cross Compiler Tutorial](https://wiki.osdev.org/GCC_Cross-Compiler) to build an assember and compiler that target i386-elf.
+3. Follow [the OS Dev Cross Compiler Tutorial](https://wiki.osdev.org/GCC_Cross-Compiler) to build an assember and compiler that targets i386-elf.
 5. set `I386TOOLPATH` in `build.sh` to the path for your cross compiler `i386` binaries. 
 6. Run `build.sh`, if it fails, make sure you correctly installed ALL the reqired packages.
 7. You should see a HelloOs.iso generated in the root directory mount this to a VM and run it.
@@ -17,7 +17,7 @@ This simple bare bones OS is based off the OS developed from the [OSDev Wiki Bar
 ## File Overview
 
 Package List:
-* `ubuntuRequiredPackages.txt`: The packages you need for this project
+* `requiredPackages.txt`: The packages you need for this project
 
 Source Files:
 * `boot.s`: The assembly code wrapper around our C Kernel, sets up our stack so we can call C.
