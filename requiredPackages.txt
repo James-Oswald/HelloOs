@@ -1,0 +1,12 @@
+build-essential
+make
+bison
+flex
+libgmp3-dev
+libmpc-dev
+libmpfr-dev
+texinfo
+grub-common
+grub-pc-bin
+xorriso
+qemu-system-x86
