@@ -12,7 +12,7 @@ This simple bare bones OS is based off the OS developed from the [OSDev Wiki Bar
 3. Follow [the OS Dev Cross Compiler Tutorial](https://wiki.osdev.org/GCC_Cross-Compiler) to build an assember and compiler that targets i386-elf.
 5. set `I386TOOLPATH` in `build.sh` to the path for your cross compiler `i386` binaries. 
 6. Run `build.sh`, if it fails, make sure you correctly installed ALL the reqired packages.
-7. You should see a HelloOs.iso generated in the root directory mount this to a VM and run it.
+7. You should see a HelloOs.iso generated in the root directory, mount this to a VM and run it.
 
 ## File Overview
 
